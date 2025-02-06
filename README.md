@@ -1,4 +1,4 @@
-# Gesture Control Mouse and Screenshot Application
+   control the mouse actions 
 
 This project is a Python application that uses hand gesture recognition to control mouse actions (such as moving the cursor, left-click, right-click, double-click, and taking screenshots) via a webcam. The program leverages MediaPipe for hand tracking, OpenCV for real-time video processing, and PyAutoGUI for mouse and screenshot actions.
 
@@ -94,9 +94,4 @@ To run this application, ensure you have the following installed:
 
 ---
 
-## Contributing
-
-Feel free to fork the repository and submit pull requests for improvements or bug fixes.
-
----
 
