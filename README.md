@@ -89,11 +89,11 @@ A window will open showing your webcam feed, and the hand gestures will control 
 ```
 hand-gesture-mouse-control/
 │
-├── gesture_mouse.py        # Main app code
-├── util.py                 # Helper functions for angles and distances
-├── requirements.txt        # Python dependencies (optional)
-├── README.md               # This file
-└── venv/                   # (Optional) Virtual environment folder
+├── gesture_mouse.py       
+├── util.py                 
+├── requirements.txt        
+├── README.md               
+└── venv/                   
 ```
 
 ---
