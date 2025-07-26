@@ -35,5 +35,29 @@ macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
 
+Install required packages
 
+pip install -r requirements.txt
+If you don’t find requirements.txt, install manually:
+
+pip install opencv-python mediapipe pyautogui pynput numpy
+
+File Structure
+
+hand-gesture-mouse-control/
+│
+├── gesture_mouse.py        # Main app code
+├── util.py                 # Helper functions for angles and distances
+├── requirements.txt        # List of dependencies
+├── README.md               # This file
+└── venv/                   # (Optional) Virtual environment folder
+
+
+Running the Application
+Ensure your webcam is connected.
+
+Run the gesture mouse control script:
+
+
+python gesture_mouse.py
 
