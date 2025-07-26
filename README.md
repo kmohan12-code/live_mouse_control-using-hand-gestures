@@ -82,38 +82,7 @@ A window will open showing your webcam feed, and the hand gestures will control 
 
 ---
 
-## How to Stop the Program
 
-- Click on the video window and press the **`q`** key to exit.
-- Or press **Ctrl + C** in the terminal to force stop.
-
-The webcam will be released automatically.
-
----
-
-## Troubleshooting
-
-- **No hand detected or no window:**
-  - Ensure your webcam is working and not used by another app.
-  - Make sure lighting and background are good.
-  - Confirm you activated the virtual environment.
-  - Try running a simple MediaPipe hand tracking example.
-
-- **Missing packages or errors:**
-  - Run `pip install -r requirements.txt` again.
-  - Confirm the virtual environment is active.
-
-- **Program won’t stop with `q`:**
-  - Use Ctrl + C in the terminal.
-  - Or close the terminal window.
-
-- **Deactivate virtual environment:**
-
-```bash
-deactivate
-```
-
----
 
 ## File Structure
 
